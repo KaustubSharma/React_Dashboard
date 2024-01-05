@@ -1,1 +1,1 @@
- Built a React Dashboard App
+ Built a Dashboard using React
