@@ -125,7 +125,7 @@ export const themeSettings = (mode) => {
   return {
     palette: {
       mode: mode,
-      ...(mode === "dark"
+      ...(mode === "white"
         ? {
             // palette values for dark mode
             primary: {
@@ -198,7 +198,7 @@ export const ColorModeContext = createContext({
 });
 
 export const useMode = () => {
-  const [mode, setMode] = useState("dark");
+  const [mode, setMode] = useState("light");
 
   const colorMode = useMemo(
     () => ({
